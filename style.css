@@ -1,0 +1,80 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Monospace', cursive;
+    font-size: 2.5em;
+    color: #ff7f50;
+    margin-bottom: 20px;
+  }
+
+  .buton {
+    text-align: center;
+    margin-bottom: 20px;
+ 
+  }
+
+  .buton button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border: 1px solid #333;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .buton .buton:hover {
+    background-color: #ddd;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .item h2 {
+    color: #ff7f50;
+    margin: 10px 0 5px 0;
+  }
+
+  .fiyat {
+    color: red;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .aciklama {
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .hidden {
+    display: none;
+  }
